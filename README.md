@@ -21,7 +21,7 @@ pip install scikit-learn==0.22.2.post1 joblib matplotlib
 ```
 
 ### Using Metallo
-Main script is `./sh/run_metallo.sh`. It requires a pdb file containing RNA 3D structure as input and the path to metallo repo.
+* Main script is `./sh/run_metallo.sh`. 
 ```
 usage: ./sh/run_metallo.sh <path-to-pdb-file> <path-to-metallo-repo>
 ```
@@ -29,7 +29,7 @@ usage: ./sh/run_metallo.sh <path-to-pdb-file> <path-to-metallo-repo>
 Example:
 ```
 conda activate metallo
-./sh/run_metallo.sh test/SAM.pdb  /Users/aaronfranklab/Documents/GitHub/Metallo
+./sh/run_metallo.sh test/SAM.pdb  ~/Documents/GitHub/Metallo
 ```
 This generates a pdbs stored in `output/metallo-pdbs/`.
 
