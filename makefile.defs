@@ -1,0 +1,14 @@
+MAKE = make
+CXX = g++
+CXXFLAGS = -std=c++11 -Wall -Wunused-variable
+FeaturizerCXXFLAGS = -std=c++11 -Wall -Wunused-variable -mismatched-new-delete
+#OPTFLAGS = -O3
+ifeq ($(UNAME_S),Darwin)
+                OPTFLAGS = ""
+endif
+#DEBUG = -g
+OTHERLIBS = ../
+INCFLAGS = -I../lib -I$(OTHERLIBS)
+LINKFLAGS = -L../lib -lmoletools 
+BINDIR = ../bin
+LIBEXT=a

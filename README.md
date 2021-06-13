@@ -6,6 +6,8 @@ Metallo: A Machine Learning Tool for Classifying Magnesium Binding Sites in RNA
 ```
 git clone https://github.com/atfrank/Metallo.git
 cd Metallo/
+make clean
+make
 ```
 ### Install Dependencies
 
@@ -15,7 +17,7 @@ conda create -n metallo
 conda activate metallo
 
 conda install -c schrodinger pymol pandas -y 
-pip install scikit-learn==0.22.2.post1 joblib
+pip install scikit-learn==0.22.2.post1 joblib matplotlib
 ```
 
 ### Using Metallo
