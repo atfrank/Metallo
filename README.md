@@ -31,12 +31,12 @@ usage: ./sh/run_metallo.sh <path-to-pdb-file> <path-to-metallo-repo>
 conda activate metallo
 ./sh/run_metallo.sh test/SAM.pdb  ~/Documents/GitHub/Metallo
 ```
-This generates a pdbs stored in `output/metallo-pdbs/`.
+This generates a coordinate (PDB formatted) files stored in `output/metallo-pdbs/`.
 
 
-* `scores_addatom_user_best.pdb` : original coordinate file
-* `addatom_user.pdb`: original + grid points coordinate file 
-* `scores_addatom_user_all.pdb`: original + highest scoring grid points coordinate file
+* `output/metallo-pdbs/scores_addatom_user_best.pdb` : original coordinate file
+* `output/metallo-pdbs/addatom_user.pdb`: original + grid points coordinate file 
+* `output/metallo-pdbs/scores_addatom_user_all.pdb`: original + highest scoring grid points coordinate file
 
 
 ## Publications
