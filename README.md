@@ -26,7 +26,7 @@ pip install scikit-learn==0.22.2.post1 joblib matplotlib
 usage: ./sh/run_metallo.sh <path-to-pdb-file> <path-to-metallo-repo>
 ```
 
-Example:
+* Example:
 ```
 conda activate metallo
 ./sh/run_metallo.sh test/SAM.pdb  ~/Documents/GitHub/Metallo
