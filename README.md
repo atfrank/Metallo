@@ -17,7 +17,7 @@ conda create -n metallo
 conda activate metallo
 
 conda install -c schrodinger pymol pandas -y 
-pip install scikit-learn==0.22.2.post1 joblib matplotlib
+python -m pip install scikit-learn==0.22.2.post1 joblib matplotlib
 ```
 
 ### Using Metallo
