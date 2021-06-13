@@ -38,7 +38,7 @@ This generates a coordinate (PDB formatted) files stored in `output/metallo-pdbs
 * `output/metallo-pdbs/addatom_user.pdb`: original + grid points coordinate file 
 * `output/metallo-pdbs/scores_addatom_user_all.pdb`: original + highest scoring grid points coordinate file
 
-# Metallo via SMALTR
+## Metallo via SMALTR
 * Metallo can also be accessed via: [SMALTR](http://smaltr.org/).
 
 
