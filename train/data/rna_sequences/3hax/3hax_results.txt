@@ -1,0 +1,15 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3hax/3hax_rna.txt --id 0.8 --alnout ./3hax/3hax_results.txt --matched ./3hax/3hax_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3HAX:E
+ %Id   TLen  Target
+100%     58  3HAX:E
+
+ Query 58nt >3HAX:E
+Target 58nt >3HAX:E
+
+Qry  1 + GGGUCCGCCUUGAGUGCCCGGGUGAAGCAUGAUCCCGGGUAAUUAUGGCGGACCCACA 58
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGGUCCGCCUUGAGUGCCCGGGUGAAGCAUGAUCCCGGGUAAUUAUGGCGGACCCACA 58
+
+58 cols, 58 ids (100.0%), 0 gaps (0.0%)

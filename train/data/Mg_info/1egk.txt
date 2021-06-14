@@ -1,0 +1,13 @@
+1egk A 21 
+1egk A 22 
+1egk A 23 
+1egk A 24 
+1egk A 25 
+1egk A 26 
+1egk A 27 
+1egk C 3 
+1egk C 4 
+1egk C 6 
+1egk C 9 
+1egk C 13 
+1egk C 14 

@@ -1,0 +1,19 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./1j1u/1j1u_rna.txt --id 0.8 --alnout ./1j1u/1j1u_results.txt --matched ./1j1u/1j1u_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >1J1U:B
+ %Id   TLen  Target
+100%     74  1J1U:B
+
+ Query 74nt >1J1U:B
+Target 74nt >1J1U:B
+
+Qry  1 + CCGGCGGUAGUUCAGCCUGGUAGAACGGCGGACUGUAGAUCCGCAUGUCGCUGGUUCAAAUCCG 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + CCGGCGGUAGUUCAGCCUGGUAGAACGGCGGACUGUAGAUCCGCAUGUCGCUGGUUCAAAUCCG 64
+
+Qry 65 + GCCCGCCGGA 74
+         ||||||||||
+Tgt 65 + GCCCGCCGGA 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)

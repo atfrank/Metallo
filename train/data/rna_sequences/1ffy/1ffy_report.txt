@@ -1,0 +1,7 @@
+f1_score precision recall test_acc train_acc
+1.00000000 1.00000000 1.00000000 1.00000000 0.99251799
+
+[[80,  0],
+ [ 0, 18]]
+1ffy.txt
+1qu2.txt

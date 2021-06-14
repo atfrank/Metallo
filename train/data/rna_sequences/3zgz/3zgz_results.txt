@@ -1,0 +1,95 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3zgz/3zgz_rna.txt --id 0.8 --alnout ./3zgz/3zgz_results.txt --matched ./3zgz/3zgz_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3ZGZ:B
+ %Id   TLen  Target
+100%     72  3ZGZ:B
+100%     72  3ZGZ:E
+
+ Query 72nt >3ZGZ:B
+Target 72nt >3ZGZ:B
+
+Qry  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+
+Qry 65 + GGGCACCA 72
+         ||||||||
+Tgt 65 + GGGCACCA 72
+
+72 cols, 72 ids (100.0%), 0 gaps (0.0%)
+
+ Query 72nt >3ZGZ:B
+Target 72nt >3ZGZ:E
+
+Qry  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+
+Qry 65 + GGGCACCA 72
+         ||||||||
+Tgt 65 + GGGCACCA 72
+
+72 cols, 72 ids (100.0%), 0 gaps (0.0%)
+
+Query >3ZGZ:E
+ %Id   TLen  Target
+100%     72  3ZGZ:B
+100%     72  3ZGZ:E
+
+ Query 72nt >3ZGZ:E
+Target 72nt >3ZGZ:B
+
+Qry  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+
+Qry 65 + GGGCACCA 72
+         ||||||||
+Tgt 65 + GGGCACCA 72
+
+72 cols, 72 ids (100.0%), 0 gaps (0.0%)
+
+ Query 72nt >3ZGZ:E
+Target 72nt >3ZGZ:E
+
+Qry  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+
+Qry 65 + GGGCACCA 72
+         ||||||||
+Tgt 65 + GGGCACCA 72
+
+72 cols, 72 ids (100.0%), 0 gaps (0.0%)
+
+Query >4ARI:B
+ %Id   TLen  Target
+ 99%     72  3ZGZ:B
+ 99%     72  3ZGZ:E
+
+ Query 71nt >4ARI:B
+Target 72nt >3ZGZ:B
+
+Qry  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+
+Qry 65 + GGGUACC 71
+         ||| |||
+Tgt 65 + GGGCACC 71
+
+71 cols, 70 ids (98.6%), 0 gaps (0.0%)
+
+ Query 71nt >4ARI:B
+Target 72nt >3ZGZ:E
+
+Qry  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCCCGGAUGGUGGAAUCGGUAGACACAAGGGAUCCCUCGGCGUUGCGGGUUCAAGUCCCGCUCC 64
+
+Qry 65 + GGGUACC 71
+         ||| |||
+Tgt 65 + GGGCACC 71
+
+71 cols, 70 ids (98.6%), 0 gaps (0.0%)

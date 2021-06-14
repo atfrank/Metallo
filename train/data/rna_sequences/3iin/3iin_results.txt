@@ -1,0 +1,77 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3iin/3iin_rna.txt --id 0.8 --alnout ./3iin/3iin_results.txt --matched ./3iin/3iin_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3BO2:B
+ %Id   TLen  Target
+100%    195  3IIN:B
+
+ Query 195nt >3BO2:B
+Target 195nt >3IIN:B
+
+Qry   1 + GCCGUGUGCCUUGCGCCGGGAAACCACGCAAGGGAUGGUGUCAAAUUCGGCGAAACCUAAGCGC 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GCCGUGUGCCUUGCGCCGGGAAACCACGCAAGGGAUGGUGUCAAAUUCGGCGAAACCUAAGCGC 64
+
+Qry  65 + CCGCCCGGGCGUAUGGCAACGCCGAGCCAAGCUUCGCAGCCAUUGCACUCCGGCUGCGAUGAAG 128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CCGCCCGGGCGUAUGGCAACGCCGAGCCAAGCUUCGCAGCCAUUGCACUCCGGCUGCGAUGAAG 128
+
+Qry 129 + GUGUAGAGACUAGACGGCACCCACCUAAGGCAAACGCUAUGGUGAAGGCAUAGUCCAGGGAGUG 192
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 129 + GUGUAGAGACUAGACGGCACCCACCUAAGGCAAACGCUAUGGUGAAGGCAUAGUCCAGGGAGUG 192
+
+Qry 193 + GCG 195
+          |||
+Tgt 193 + GCG 195
+
+195 cols, 195 ids (100.0%), 0 gaps (0.0%)
+
+Query >3BO3:B
+ %Id   TLen  Target
+100%    195  3IIN:B
+
+ Query 195nt >3BO3:B
+Target 195nt >3IIN:B
+
+Qry   1 + GCCGUGUGCCUUGCGCCGGGAAACCACGCAAGGGAUGGUGUCAAAUUCGGCGAAACCUAAGCGC 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GCCGUGUGCCUUGCGCCGGGAAACCACGCAAGGGAUGGUGUCAAAUUCGGCGAAACCUAAGCGC 64
+
+Qry  65 + CCGCCCGGGCGUAUGGCAACGCCGAGCCAAGCUUCGCAGCCAUUGCACUCCGGCUGCGAUGAAG 128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CCGCCCGGGCGUAUGGCAACGCCGAGCCAAGCUUCGCAGCCAUUGCACUCCGGCUGCGAUGAAG 128
+
+Qry 129 + GUGUAGAGACUAGACGGCACCCACCUAAGGCAAACGCUAUGGUGAAGGCAUAGUCCAGGGAGUG 192
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 129 + GUGUAGAGACUAGACGGCACCCACCUAAGGCAAACGCUAUGGUGAAGGCAUAGUCCAGGGAGUG 192
+
+Qry 193 + GCG 195
+          |||
+Tgt 193 + GCG 195
+
+195 cols, 195 ids (100.0%), 0 gaps (0.0%)
+
+Query >3IIN:B
+ %Id   TLen  Target
+100%    195  3IIN:B
+
+ Query 195nt >3IIN:B
+Target 195nt >3IIN:B
+
+Qry   1 + GCCGUGUGCCUUGCGCCGGGAAACCACGCAAGGGAUGGUGUCAAAUUCGGCGAAACCUAAGCGC 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GCCGUGUGCCUUGCGCCGGGAAACCACGCAAGGGAUGGUGUCAAAUUCGGCGAAACCUAAGCGC 64
+
+Qry  65 + CCGCCCGGGCGUAUGGCAACGCCGAGCCAAGCUUCGCAGCCAUUGCACUCCGGCUGCGAUGAAG 128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CCGCCCGGGCGUAUGGCAACGCCGAGCCAAGCUUCGCAGCCAUUGCACUCCGGCUGCGAUGAAG 128
+
+Qry 129 + GUGUAGAGACUAGACGGCACCCACCUAAGGCAAACGCUAUGGUGAAGGCAUAGUCCAGGGAGUG 192
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 129 + GUGUAGAGACUAGACGGCACCCACCUAAGGCAAACGCUAUGGUGAAGGCAUAGUCCAGGGAGUG 192
+
+Qry 193 + GCG 195
+          |||
+Tgt 193 + GCG 195
+
+195 cols, 195 ids (100.0%), 0 gaps (0.0%)

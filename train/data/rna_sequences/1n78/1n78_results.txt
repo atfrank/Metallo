@@ -1,0 +1,64 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./1n78/1n78_rna.txt --id 0.8 --alnout ./1n78/1n78_results.txt --matched ./1n78/1n78_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >1N78:D
+ %Id   TLen  Target
+100%     74  1N78:C
+100%     74  1N78:D
+
+ Query 74nt >1N78:D
+Target 74nt >1N78:C
+
+Qry  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+
+Qry 65 + GGGGUCACCA 74
+         ||||||||||
+Tgt 65 + GGGGUCACCA 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >1N78:D
+Target 74nt >1N78:D
+
+Qry  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+
+Qry 65 + GGGGUCACCA 74
+         ||||||||||
+Tgt 65 + GGGGUCACCA 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)
+
+Query >1N78:C
+ %Id   TLen  Target
+100%     74  1N78:C
+100%     74  1N78:D
+
+ Query 74nt >1N78:C
+Target 74nt >1N78:C
+
+Qry  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+
+Qry 65 + GGGGUCACCA 74
+         ||||||||||
+Tgt 65 + GGGGUCACCA 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >1N78:C
+Target 74nt >1N78:D
+
+Qry  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCCCAUCGUCUAGCGGUAGGACGCGGCCCUCUCAAGGCCGAAACGGGGGUUCGAUUCCCCCU 64
+
+Qry 65 + GGGGUCACCA 74
+         ||||||||||
+Tgt 65 + GGGGUCACCA 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)

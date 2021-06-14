@@ -1,0 +1,23 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4p9r/4p9r_rna.txt --id 0.8 --alnout ./4p9r/4p9r_results.txt --matched ./4p9r/4p9r_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4P9R:A
+ %Id   TLen  Target
+100%    189  4P9R:A
+
+ Query 189nt >4P9R:A
+Target 189nt >4P9R:A
+
+Qry   1 + CAUCCGGUAUCCCAAGACAAUCUCGGGUUGGGUUGGGAAGUAUCAUGGCUAAUCACCAUGAUGC 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + CAUCCGGUAUCCCAAGACAAUCUCGGGUUGGGUUGGGAAGUAUCAUGGCUAAUCACCAUGAUGC 64
+
+Qry  65 + AAUCGGGUUGAACACUUAAUUGGGUUAAAACGGUGGGGGACGAUCCCGUAACAUCCGUCCUAAC 128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + AAUCGGGUUGAACACUUAAUUGGGUUAAAACGGUGGGGGACGAUCCCGUAACAUCCGUCCUAAC 128
+
+Qry 129 + GGCGACAGACUGCACGGCCCUGCCUCAGGUGUGUCCAAUGAACAGUCGUUCCGAAAGGAAG 189
+          |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 129 + GGCGACAGACUGCACGGCCCUGCCUCAGGUGUGUCCAAUGAACAGUCGUUCCGAAAGGAAG 189
+
+189 cols, 189 ids (100.0%), 0 gaps (0.0%)

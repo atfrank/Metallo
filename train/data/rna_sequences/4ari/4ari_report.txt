@@ -1,0 +1,7 @@
+f1_score precision recall test_acc train_acc
+1.00000000 1.00000000 1.00000000 1.00000000 0.99251933
+
+[[51,  0],
+ [ 0,  7]]
+4ari.txt
+3zgz.txt

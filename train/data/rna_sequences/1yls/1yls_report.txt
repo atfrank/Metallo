@@ -1,0 +1,6 @@
+f1_score precision recall test_acc train_acc
+0.96000000 1.00000000 0.92307692 0.97777778 0.99252421
+
+[[32,  0],
+ [ 1, 12]]
+1yls.txt

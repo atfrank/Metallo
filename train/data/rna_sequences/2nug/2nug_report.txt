@@ -1,0 +1,6 @@
+f1_score precision recall test_acc train_acc
+0.91666667 1.00000000 0.84615385 0.96875000 0.99252358
+
+[[51,  0],
+ [ 2, 11]]
+2nug.txt

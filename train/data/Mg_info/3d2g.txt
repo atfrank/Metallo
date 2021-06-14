@@ -1,0 +1,8 @@
+3d2g A 81 
+3d2g B 79 
+3d2g A 80 
+3d2g A 82 
+3d2g A 78 
+3d2g B 78 
+3d2g A 79 
+3d2g B 80 

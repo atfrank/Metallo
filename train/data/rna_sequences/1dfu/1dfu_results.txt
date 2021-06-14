@@ -1,0 +1,2 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./1dfu/1dfu_rna.txt --id 0.8 --alnout ./1dfu/1dfu_results.txt --matched ./1dfu/1dfu_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores

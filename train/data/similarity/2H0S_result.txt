@@ -1,0 +1,10 @@
+Accuracy of RF classifier on training set: 0.99994201
+Accuracy of RF classifier on test set: 0.99510853
+[[9724    8]
+ [  40   41]]
+f1 score:
+0.6307692307692307
+training set:
+['4DR7', '3S15', '4JI2', '6TNA', '1JJ2', '1FFK', '4KZD', '3L0U', '2OE5', '3CCQ', '4JI3', '3DD2', '2BX2', '3S14', '1K73', '1L2X', '2R20', '4DR6', '4DR4', '3HK2', '1YJN', '1YHQ', '3ZC0', '3D2V', '3CC2', '4JI1', '4LF8', '3NKB', '3P49', '1X8W', '1MMS', '4LF9', '3OWZ', '4JI0', '3CCR', '1K9M', '3CCE', '3OXB', '3V7E', '1YJ9', '4DR5', '3OX0', '3CCV', '3CC7', '4JI4', '2GDI', '3OWI', '1J1U', '4E8N', '3IVK', '4P9R', '2C0B', '4JI5', '3TWH', '2PPB', '4DR2', '3HJF', '1YI2', '3HHN', '4JI7', '3D2G', '3CCU', '4E8M', '1FFY', '1FEU', '4G6R', '1HR2', '4JI6', '3OXD', '3Q1R', '4DR3', '1EVV', '4HOR', '2G8H', '1NUV', '3CD6', '4PQV', '3LA5', '1VQK', '1TEZ', '1S72', '1QU2', '4FAW', '462D', '3JXQ', '2R8S', '4A3K', '4M30', '3ZGZ', '3BO2', '1DNT', '2FQN', '2OTJ', '3BO3', '3MEI', '4Q9Q', '4QLM', '4OJI', '2ZXU', '3EGZ', '1VQL', '4NXM', '1NTB', '4J7L', '4QLN', '4A3M', '4UN4', '1VQ8', '4BWM', '4BY1', '2OTL', '1TRA', '1VQ9', '1VQO', '4NXN', '1EGK', '2G5K', '4FAR', '4A3L', '1KQS', '437D', '2G8V', '2YIF', '3HTX', '1VQ4', '1Q7Y', '4BXX', '2A43', '1VQ5', '3CGS', '4DUY', '1PJO', '3HAX', '4TRA', '4DV4', '1YLS', '4A3B', '1Y99', '2YIE', '1YTU', '354D', '1M1K', '1VQ7', '3RER', '2QEX', '2C4R', '1XJR', '4LX5', '1VQ6', '3TD0', '3HVR', '1NUJ', '2G91', '1KD1', '3HM9', '4FB0', '3HO1', '4DUZ', '4DV7', '4ARI', '1L8V', '1DNO', '1QVF', '2O5I', '2Q1R', '1Q81', '4IFD', '2AO5', '1QVG', '1FUF', '1LNG', '2G8F', '4A3F', '4DV2', '4DV0', '4A3D', '4M2Z', '4JNX', '1VQP', '1Q82', '1EHZ', '4A3E', '1N78', '4DV1', '1NJI', '2NUF', '3PO2', '3PO3', '1ZBL', '4JI8', '3CCM', '3GX5', '1DFU', '4P5J', '3G71', '3I56', '3CCL', '1YIJ', '2B8S', '2R1S', '4JF2', '3OWW', '4LFB', '2QBZ', '1M90', '2OIY', '4LFC', '4ENA', '2UUA', '3DIL', '3CXC', '4TZX', '3AOH', '1W2B', '2UUC', '4LF7', '4ENC', '4LFA', '3U2E', '4B3R', '3G6E', '1ZBI', '4ENB', '3D2X', '3CCJ', '3OXM', '4M4O', '1YJW']
+test set:
+['3MXH', '2H0X', '3UCZ', '3SSF', '2NZ4', '2GCS', '2Z75', '2H0S', '3B4A', '3MUT', '2GCV', '3MUR', '2HO6', '3B4C', '3MUM', '3B4B', '2H0W', '4A93']

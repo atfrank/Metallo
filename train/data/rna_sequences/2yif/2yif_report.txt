@@ -1,0 +1,7 @@
+f1_score precision recall test_acc train_acc
+1.00000000 1.00000000 1.00000000 1.00000000 0.99251125
+
+[[30,  0],
+ [ 0,  3]]
+2yif.txt
+2yie.txt

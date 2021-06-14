@@ -1,0 +1,14 @@
+f1_score precision recall test_acc train_acc
+0.96551724 1.00000000 0.93333333 0.99137931 0.99252185
+
+[[101,   0],
+ [  1,  14]]
+3ucz.txt
+3mum.txt
+3mxh.txt
+3muv.txt
+3mur.txt
+3mut.txt
+3ud4.txt
+3ud3.txt
+3ucu.txt

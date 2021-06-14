@@ -1,0 +1,10 @@
+1nuj G 421 
+1nuj A 417 
+1nuj A 418 
+1nuj B 419 
+1nuj C 426 
+1nuj E 423 
+1nuj E 424 
+1nuj G 420 
+1nuj C 425 
+1nuj H 422 

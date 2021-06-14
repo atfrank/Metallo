@@ -1,0 +1,19 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3egz/3egz_rna.txt --id 0.8 --alnout ./3egz/3egz_results.txt --matched ./3egz/3egz_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3EGZ:B
+ %Id   TLen  Target
+100%     65  3EGZ:B
+
+ Query 65nt >3EGZ:B
+Target 65nt >3EGZ:B
+
+Qry  1 + GAGGGAGAGGUGAAGAAUACGACCACCUAGGUACCAUUGCACUCCGGUACCUAAAACAUACCCU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GAGGGAGAGGUGAAGAAUACGACCACCUAGGUACCAUUGCACUCCGGUACCUAAAACAUACCCU 64
+
+Qry 65 + C 65
+         |
+Tgt 65 + C 65
+
+65 cols, 65 ids (100.0%), 0 gaps (0.0%)

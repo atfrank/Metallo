@@ -1,0 +1,6 @@
+f1_score precision recall test_acc train_acc
+0.80000000 0.66666667 1.00000000 0.90000000 0.99251647
+
+[[7, 1],
+ [0, 2]]
+2g5k.txt

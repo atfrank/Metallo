@@ -1,0 +1,10 @@
+Accuracy of RF classifier on training set: 0.99996210
+Accuracy of RF classifier on test set: 0.98296189
+[[179766    820]
+ [  2371   4329]]
+f1 score:
+0.7306945733817201
+training set:
+['3MUR', '3S15', '4JI2', '6TNA', '4KZD', '3L0U', '2OE5', '4JI3', '3DD2', '2BX2', '3S14', '1L2X', '2R20', '3HK2', '3ZC0', '3D2V', '4JI1', '4LF8', '3NKB', '3P49', '1X8W', '4LF9', '3OWZ', '4JI0', '3OXB', '3V7E', '3MUT', '3OX0', '4JI4', '2GDI', '3OWI', '1J1U', '4E8N', '3IVK', '4P9R', '2C0B', '2HO6', '4JI5', '3TWH', '4DR2', '3HJF', '3HHN', '4JI7', '3D2G', '4E8M', '1FFY', '1FEU', '4G6R', '1HR2', '4JI6', '3OXD', '3Q1R', '4DR3', '1EVV', '4HOR', '2G8H', '4PQV', '3LA5', '1TEZ', '1QU2', '4FAW', '462D', '3JXQ', '2R8S', '4A3K', '4M30', '3ZGZ', '2H0X', '3BO2', '1DNT', '2FQN', '2Z75', '3BO3', '3MEI', '4Q9Q', '4QLM', '4OJI', '2ZXU', '3B4A', '3EGZ', '4NXM', '1NTB', '4J7L', '4QLN', '4A3M', '4UN4', '3B4B', '4BY1', '1TRA', '3UCZ', '3B4C', '4NXN', '1EGK', '2G5K', '4FAR', '4A3L', '437D', '2G8V', '2YIF', '2GCV', '3HTX', '4BXX', '2A43', '2H0S', '4DUY', '3HAX', '4TRA', '4DV4', '4A3B', '1Y99', '2YIE', '1YTU', '3RER', '2C4R', '1XJR', '4LX5', '3TD0', '3HVR', '2G91', '3HM9', '4FB0', '4DUZ', '4DV7', '4ARI', '1L8V', '1DNO', '4IFD', '1FUF', '1LNG', '2G8F', '4A3F', '4DV2', '4DV0', '4A3D', '4M2Z', '4JNX', '2GCS', '2H0W', '1EHZ', '4A3E', '1N78', '4DV1', '2NUF', '3PO2', '3PO3', '3MUM', '3MXH', '4JI8', '3GX5', '1DFU', '4P5J', '2B8S', '2R1S', '4JF2', '3OWW', '4LFB', '2QBZ', '2OIY', '4LFC', '4ENA', '2UUA', '3DIL', '4TZX', '3AOH', '2UUC', '4LF7', '4ENC', '4LFA', '3U2E', '4ENB', '3D2X', '3OXM', '4M4O', '4A93']
+test set:
+['3HO1', '1PJO', '3CXC', '1NUJ', '2QEX', '1K73', '1YIJ', '3CGS', '1Q7Y', '1Q81', '354D', '1KD1', '1VQL', '1NUV', '1VQK', '1NJI', '3CCL', '3G6E', '1YLS', '1VQO', '1FFK', '1ZBI', '3CCE', '3CCJ', '3CD6', '1QVF', '3CCM', '2AO5', '3CCR', '3CCQ', '1QVG', '1JJ2', '1YJN', '2O5I', '2Q1R', '4DR6', '4DR7', '4DR4', '3CCV', '2PPB', '1YJ9', '1ZBL', '2OTJ', '3CCU', '2NZ4', '1Q82', '1M1K', '3G71', '3CC2', '1MMS', '1S72', '3CC7', '2OTL', '1YHQ', '1K9M', '1KQS', '1M90', '1YJW', '1VQP', '3SSF', '1VQ8', '1VQ9', '1VQ6', '1VQ7', '1VQ4', '1VQ5', '4B3R', '4BWM', '1YI2', '4DR5', '1W2B', '3I56']

@@ -1,0 +1,28 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./1dul/1dul_rna.txt --id 0.8 --alnout ./1dul/1dul_results.txt --matched ./1dul/1dul_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >1DUL:B
+ %Id   TLen  Target
+100%     48  1DUL:B
+
+ Query 48nt >1DUL:B
+Target 48nt >1DUL:B
+
+Qry  1 + GGCUCUGUUUACCAGGUCAGGUCCGAAAGGAAGCAGCCAAGGCAGAGC 48
+         ||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCUCUGUUUACCAGGUCAGGUCCGAAAGGAAGCAGCCAAGGCAGAGC 48
+
+48 cols, 48 ids (100.0%), 0 gaps (0.0%)
+
+Query >1HQ1:B
+ %Id   TLen  Target
+100%     48  1DUL:B
+
+ Query 48nt >1HQ1:B
+Target 48nt >1DUL:B
+
+Qry  1 + GGCUCUGUUUACCAGGUCAGGUCCGAAAGGAAGCAGCCAAGGCAGAGC 48
+         ||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCUCUGUUUACCAGGUCAGGUCCGAAAGGAAGCAGCCAAGGCAGAGC 48
+
+48 cols, 48 ids (100.0%), 0 gaps (0.0%)

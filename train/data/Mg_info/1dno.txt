@@ -1,0 +1,4 @@
+1dno A 24 
+1dno B 21 
+1dno B 22 
+1dno B 23 

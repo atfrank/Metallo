@@ -1,0 +1,19 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4jf2/4jf2_rna.txt --id 0.8 --alnout ./4jf2/4jf2_results.txt --matched ./4jf2/4jf2_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4JF2:A
+ %Id   TLen  Target
+100%     76  4JF2:A
+
+ Query 76nt >4JF2:A
+Target 76nt >4JF2:A
+
+Qry  1 + GAACCGCGAAAGCGGUUCCACGACGAUACUUAUUUCCUUUGAUCGUCGUUAUUACUGGCUUCGG 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GAACCGCGAAAGCGGUUCCACGACGAUACUUAUUUCCUUUGAUCGUCGUUAUUACUGGCUUCGG 64
+
+Qry 65 + CCACAAAGGAGA 76
+         ||||||||||||
+Tgt 65 + CCACAAAGGAGA 76
+
+76 cols, 76 ids (100.0%), 0 gaps (0.0%)

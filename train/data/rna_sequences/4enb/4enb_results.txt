@@ -1,0 +1,54 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4enb/4enb_rna.txt --id 0.8 --alnout ./4enb/4enb_results.txt --matched ./4enb/4enb_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4EN5:A
+ %Id   TLen  Target
+100%     51  4ENB:A
+
+ Query 52nt >4EN5:A
+Target 51nt >4ENB:A
+
+Qry  2 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 52
+         |||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 51
+
+51 cols, 51 ids (100.0%), 0 gaps (0.0%)
+
+Query >4ENA:A
+ %Id   TLen  Target
+100%     51  4ENB:A
+
+ Query 51nt >4ENA:A
+Target 51nt >4ENB:A
+
+Qry  1 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 51
+         |||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 51
+
+51 cols, 51 ids (100.0%), 0 gaps (0.0%)
+
+Query >4ENB:A
+ %Id   TLen  Target
+100%     51  4ENB:A
+
+ Query 51nt >4ENB:A
+Target 51nt >4ENB:A
+
+Qry  1 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 51
+         |||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 51
+
+51 cols, 51 ids (100.0%), 0 gaps (0.0%)
+
+Query >4ENC:A
+ %Id   TLen  Target
+100%     51  4ENB:A
+
+ Query 52nt >4ENC:A
+Target 51nt >4ENB:A
+
+Qry  2 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 52
+         |||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCGAUGAGGCCCGCCCAAACUGCCCUGAAAAGGGCUGAUGGCCUCUACUG 51
+
+51 cols, 51 ids (100.0%), 0 gaps (0.0%)

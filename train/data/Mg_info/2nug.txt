@@ -1,0 +1,13 @@
+2nug E 505 
+2nug F 511 
+2nug D 516 
+2nug F 513 
+2nug A 501 
+2nug A 504 
+2nug A 506 
+2nug B 510 
+2nug B 512 
+2nug C 515 
+2nug C 519 
+2nug D 514 
+2nug B 507 

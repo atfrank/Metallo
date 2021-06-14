@@ -1,0 +1,23 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3dil/3dil_rna.txt --id 0.8 --alnout ./3dil/3dil_results.txt --matched ./3dil/3dil_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3DIL:A
+ %Id   TLen  Target
+100%    173  3DIL:A
+
+ Query 173nt >3DIL:A
+Target 173nt >3DIL:A
+
+Qry   1 + GGCCGACGGAGGCGCGCCCGAGAUGAGUAGGCUGUCCCAUCAGGGGAGGAAUCGGGGACGGCUG 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GGCCGACGGAGGCGCGCCCGAGAUGAGUAGGCUGUCCCAUCAGGGGAGGAAUCGGGGACGGCUG 64
+
+Qry  65 + AAAGGCGAGGGCGCCGAAGGGUGCAGAGUUCCUCCCGCUCUGCAUGCCUGGGGGUAUGGGGAAU 128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + AAAGGCGAGGGCGCCGAAGGGUGCAGAGUUCCUCCCGCUCUGCAUGCCUGGGGGUAUGGGGAAU 128
+
+Qry 129 + ACCCAUACCACUGUCACGGAGGUCUCUCCGUGGAGAGCCGUCGGU 173
+          |||||||||||||||||||||||||||||||||||||||||||||
+Tgt 129 + ACCCAUACCACUGUCACGGAGGUCUCUCCGUGGAGAGCCGUCGGU 173
+
+173 cols, 173 ids (100.0%), 0 gaps (0.0%)

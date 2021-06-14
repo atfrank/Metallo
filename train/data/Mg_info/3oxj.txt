@@ -1,0 +1,8 @@
+3oxj A 112 
+3oxj A 101 
+3oxj B 110 
+3oxj A 102 
+3oxj B 111 
+3oxj B 108 
+3oxj A 109 
+3oxj A 107 

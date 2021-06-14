@@ -1,0 +1,6 @@
+f1_score precision recall test_acc train_acc
+0.93333333 0.87500000 1.00000000 0.98924731 0.99252261
+
+[[85,  1],
+ [ 0,  7]]
+2nz4.txt

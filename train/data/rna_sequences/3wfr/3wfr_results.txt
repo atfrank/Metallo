@@ -1,0 +1,356 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3wfr/3wfr_rna.txt --id 0.8 --alnout ./3wfr/3wfr_results.txt --matched ./3wfr/3wfr_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3Q1Q:C
+ %Id   TLen  Target
+ 83%     74  3WFR:C
+ 83%     74  3WFR:D
+ 83%     73  3WFR:A
+ 83%     73  3WFR:B
+
+ Query 86nt >3Q1Q:C
+Target 74nt >3WFR:C
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCAC 84
+         ||||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCAC 74
+
+84 cols, 70 ids (83.3%), 10 gaps (11.9%)
+
+ Query 86nt >3Q1Q:C
+Target 74nt >3WFR:D
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCAC 84
+         ||||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCAC 74
+
+84 cols, 70 ids (83.3%), 10 gaps (11.9%)
+
+ Query 86nt >3Q1Q:C
+Target 73nt >3WFR:A
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCA 83
+         |||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCA 73
+
+83 cols, 69 ids (83.1%), 10 gaps (12.0%)
+
+ Query 86nt >3Q1Q:C
+Target 73nt >3WFR:B
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCA 83
+         |||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCA 73
+
+83 cols, 69 ids (83.1%), 10 gaps (12.0%)
+
+Query >3Q1R:C
+ %Id   TLen  Target
+ 83%     74  3WFR:C
+ 83%     74  3WFR:D
+ 83%     73  3WFR:A
+ 83%     73  3WFR:B
+
+ Query 86nt >3Q1R:C
+Target 74nt >3WFR:C
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCAC 84
+         ||||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCAC 74
+
+84 cols, 70 ids (83.3%), 10 gaps (11.9%)
+
+ Query 86nt >3Q1R:C
+Target 74nt >3WFR:D
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCAC 84
+         ||||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCAC 74
+
+84 cols, 70 ids (83.3%), 10 gaps (11.9%)
+
+ Query 86nt >3Q1R:C
+Target 73nt >3WFR:A
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCA 83
+         |||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCA 73
+
+83 cols, 69 ids (83.1%), 10 gaps (12.0%)
+
+ Query 86nt >3Q1R:C
+Target 73nt >3WFR:B
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGAUAUGGGCACCCCCUAAGUCCAGGUGUCGGCGGU 64
+         |||||||||||||||||||||||||||||||          |   || ||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGA----------CUGAAAAUCCAGGUGUCGGCGGU 54
+
+Qry 65 + UCGAUUCCGCCCCUGGCCA 83
+         |||||||||||||||||||
+Tgt 55 + UCGAUUCCGCCCCUGGCCA 73
+
+83 cols, 69 ids (83.1%), 10 gaps (12.0%)
+
+Query >3WFR:A
+ %Id   TLen  Target
+100%     73  3WFR:A
+100%     73  3WFR:B
+100%     74  3WFR:C
+100%     74  3WFR:D
+
+ Query 73nt >3WFR:A
+Target 73nt >3WFR:A
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 73nt >3WFR:A
+Target 73nt >3WFR:B
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 73nt >3WFR:A
+Target 74nt >3WFR:C
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 73nt >3WFR:A
+Target 74nt >3WFR:D
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+Query >3WFR:B
+ %Id   TLen  Target
+100%     73  3WFR:A
+100%     73  3WFR:B
+100%     74  3WFR:C
+100%     74  3WFR:D
+
+ Query 73nt >3WFR:B
+Target 73nt >3WFR:A
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 73nt >3WFR:B
+Target 73nt >3WFR:B
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 73nt >3WFR:B
+Target 74nt >3WFR:C
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 73nt >3WFR:B
+Target 74nt >3WFR:D
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+Query >3WFR:C
+ %Id   TLen  Target
+100%     73  3WFR:A
+100%     73  3WFR:B
+100%     74  3WFR:C
+100%     74  3WFR:D
+
+ Query 74nt >3WFR:C
+Target 73nt >3WFR:A
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >3WFR:C
+Target 73nt >3WFR:B
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >3WFR:C
+Target 74nt >3WFR:C
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCAC 74
+         ||||||||||
+Tgt 65 + CCCUGGCCAC 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >3WFR:C
+Target 74nt >3WFR:D
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCAC 74
+         ||||||||||
+Tgt 65 + CCCUGGCCAC 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)
+
+Query >3WFR:D
+ %Id   TLen  Target
+100%     73  3WFR:A
+100%     73  3WFR:B
+100%     74  3WFR:C
+100%     74  3WFR:D
+
+ Query 74nt >3WFR:D
+Target 73nt >3WFR:A
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >3WFR:D
+Target 73nt >3WFR:B
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCA 73
+         |||||||||
+Tgt 65 + CCCUGGCCA 73
+
+73 cols, 73 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >3WFR:D
+Target 74nt >3WFR:C
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCAC 74
+         ||||||||||
+Tgt 65 + CCCUGGCCAC 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)
+
+ Query 74nt >3WFR:D
+Target 74nt >3WFR:D
+
+Qry  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGCCAGGUAGCUCAGUUGGUAGAGCACUGGACUGAAAAUCCAGGUGUCGGCGGUUCGAUUCCGC 64
+
+Qry 65 + CCCUGGCCAC 74
+         ||||||||||
+Tgt 65 + CCCUGGCCAC 74
+
+74 cols, 74 ids (100.0%), 0 gaps (0.0%)

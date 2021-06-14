@@ -1,0 +1,14 @@
+f1_score precision recall test_acc train_acc
+0.93023256 0.98765432 0.87912088 0.96782842 0.99255789
+
+[[281,   1],
+ [ 11,  80]]
+3oxd.txt
+3owi.txt
+3oww.txt
+3owz.txt
+3ox0.txt
+3oxb.txt
+3oxe.txt
+3oxj.txt
+3oxm.txt

@@ -1,0 +1,54 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./2yie/2yie_rna.txt --id 0.8 --alnout ./2yie/2yie_results.txt --matched ./2yie/2yie_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >2YIE:X
+ %Id   TLen  Target
+100%     53  2YIE:X
+
+ Query 53nt >2YIE:X
+Target 53nt >2YIE:X
+
+Qry  1 + GAUCUUCGGGGCAGGGUGAAAUUCCCGACCGGUGGUAUAGUCCACGAAUCCAU 53
+         |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GAUCUUCGGGGCAGGGUGAAAUUCCCGACCGGUGGUAUAGUCCACGAAUCCAU 53
+
+53 cols, 53 ids (100.0%), 0 gaps (0.0%)
+
+Query >2YIE:Z
+ %Id   TLen  Target
+100%     56  2YIE:Z
+
+ Query 56nt >2YIE:Z
+Target 56nt >2YIE:Z
+
+Qry  1 + GAUUGAUUUGGUGAAAUUCCAAAACCGACAGUAGAGUCUGGAUGAGAGAAGAUUCG 56
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GAUUGAUUUGGUGAAAUUCCAAAACCGACAGUAGAGUCUGGAUGAGAGAAGAUUCG 56
+
+56 cols, 56 ids (100.0%), 0 gaps (0.0%)
+
+Query >2YIF:X
+ %Id   TLen  Target
+100%     53  2YIE:X
+
+ Query 52nt >2YIF:X
+Target 53nt >2YIE:X
+
+Qry  1 + GAUCUUCGGGGCAGGGUGAAAUUCCCGACCGGUGGUAUAGUCCACGAAUCCA 52
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GAUCUUCGGGGCAGGGUGAAAUUCCCGACCGGUGGUAUAGUCCACGAAUCCA 52
+
+52 cols, 52 ids (100.0%), 0 gaps (0.0%)
+
+Query >2YIF:Z
+ %Id   TLen  Target
+100%     56  2YIE:Z
+
+ Query 56nt >2YIF:Z
+Target 56nt >2YIE:Z
+
+Qry  1 + GAUUGAUUUGGUGAAAUUCCAAAACCGACAGUAGAGUCUGGAUGAGAGAAGAUUCG 56
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GAUUGAUUUGGUGAAAUUCCAAAACCGACAGUAGAGUCUGGAUGAGAGAAGAUUCG 56
+
+56 cols, 56 ids (100.0%), 0 gaps (0.0%)

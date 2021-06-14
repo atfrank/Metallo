@@ -1,0 +1,9 @@
+f1_score precision recall test_acc train_acc
+0.97208539 0.98338870 0.96103896 0.98156182 0.99255303
+
+[[609,   5],
+ [ 12, 296]]
+4bpe.txt
+4bpn.txt
+4bpp.txt
+4bpo.txt

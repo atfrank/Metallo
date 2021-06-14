@@ -1,0 +1,36 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4qlm/4qlm_rna.txt --id 0.8 --alnout ./4qlm/4qlm_results.txt --matched ./4qlm/4qlm_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4QLM:A
+ %Id   TLen  Target
+100%    108  4QLM:A
+
+ Query 108nt >4QLM:A
+Target 108nt >4QLM:A
+
+Qry   1 + AUCGCUGAACGCGGGGGACCCAGGGGGCGAAUCUCUUCCGAAAGGAAGAGUAGGGUUACUCCUU 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + AUCGCUGAACGCGGGGGACCCAGGGGGCGAAUCUCUUCCGAAAGGAAGAGUAGGGUUACUCCUU 64
+
+Qry  65 + CGACCCGAGCCCGUCAGCUAACCUCGCAAGCGUCCGAAGGAGAA 108
+          ||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CGACCCGAGCCCGUCAGCUAACCUCGCAAGCGUCCGAAGGAGAA 108
+
+108 cols, 108 ids (100.0%), 0 gaps (0.0%)
+
+Query >4QLN:A
+ %Id   TLen  Target
+ 93%    108  4QLM:A
+
+ Query 117nt >4QLN:A
+Target 108nt >4QLM:A
+
+Qry   2 + AUCGCUGAACCCGAAGGGGCGGGGGACCCAGGGGGCGAAUCUCUUCCGAAAGGAAGAGUAGGGU 65
+          ||||||||||        ||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + AUCGCUGAAC--------GCGGGGGACCCAGGGGGCGAAUCUCUUCCGAAAGGAAGAGUAGGGU 56
+
+Qry  66 + UACUCCUUCGACCCGAGCCCGUCAGCUAACCUCGCAAGCGUCCGAAGGAGAA 117
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  57 + UACUCCUUCGACCCGAGCCCGUCAGCUAACCUCGCAAGCGUCCGAAGGAGAA 108
+
+116 cols, 108 ids (93.1%), 8 gaps (6.9%)

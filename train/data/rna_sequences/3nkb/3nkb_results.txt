@@ -1,0 +1,15 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3nkb/3nkb_rna.txt --id 0.8 --alnout ./3nkb/3nkb_results.txt --matched ./3nkb/3nkb_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3NKB:B
+ %Id   TLen  Target
+100%     64  3NKB:B
+
+ Query 64nt >3NKB:B
+Target 64nt >3NKB:B
+
+Qry  1 + GGUCCGCAGCCUCCUCGCGGCGCAAGCUGGGCAACAUUCCGAAAGGUAAUGGCGAAUGCGGACC 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGUCCGCAGCCUCCUCGCGGCGCAAGCUGGGCAACAUUCCGAAAGGUAAUGGCGAAUGCGGACC 64
+
+64 cols, 64 ids (100.0%), 0 gaps (0.0%)

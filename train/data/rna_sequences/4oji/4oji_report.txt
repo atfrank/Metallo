@@ -1,0 +1,6 @@
+f1_score precision recall test_acc train_acc
+0.88888889 0.80000000 1.00000000 0.95454545 0.99252053
+
+[[17,  1],
+ [ 0,  4]]
+4oji.txt

@@ -1,0 +1,5 @@
+f1_score precision recall test_acc train_acc
+1.00000000 1.00000000 1.00000000 1.00000000 0.99252122
+
+[[1]]
+3hm9.txt

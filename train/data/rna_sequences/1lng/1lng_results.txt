@@ -1,0 +1,19 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./1lng/1lng_rna.txt --id 0.8 --alnout ./1lng/1lng_results.txt --matched ./1lng/1lng_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >1LNG:B
+ %Id   TLen  Target
+100%     97  1LNG:B
+
+ Query 97nt >1LNG:B
+Target 97nt >1LNG:B
+
+Qry  1 + UCGGCGGUGGGGGAGCAUCUCCUGUAGGGGAGAUGUAACCCCCUUUACCUGCCGAACCCCGCCA 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + UCGGCGGUGGGGGAGCAUCUCCUGUAGGGGAGAUGUAACCCCCUUUACCUGCCGAACCCCGCCA 64
+
+Qry 65 + GGCCCGGAAGGGAGCAACGGUAGGCAGGACGUC 97
+         |||||||||||||||||||||||||||||||||
+Tgt 65 + GGCCCGGAAGGGAGCAACGGUAGGCAGGACGUC 97
+
+97 cols, 97 ids (100.0%), 0 gaps (0.0%)

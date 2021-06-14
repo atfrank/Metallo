@@ -1,0 +1,23 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./2qbz/2qbz_rna.txt --id 0.8 --alnout ./2qbz/2qbz_results.txt --matched ./2qbz/2qbz_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >2QBZ:X
+ %Id   TLen  Target
+100%    153  2QBZ:X
+
+ Query 153nt >2QBZ:X
+Target 153nt >2QBZ:X
+
+Qry   1 + GGGCUUCGUUAGGUGAGGCUCCUGUAUGGAGAUACGCUGCUGCCCAAAAAUGUCCAAAGACGCC 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GGGCUUCGUUAGGUGAGGCUCCUGUAUGGAGAUACGCUGCUGCCCAAAAAUGUCCAAAGACGCC 64
+
+Qry  65 + AAUGGGUCAACAGAAAUCAUCGACAUAAGGUGAUUUUUAAUGCAGCUGGCCUAUGCCAUACAGU 128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + AAUGGGUCAACAGAAAUCAUCGACAUAAGGUGAUUUUUAAUGCAGCUGGCCUAUGCCAUACAGU 128
+
+Qry 129 + GCUAAAGCUCUACGAUUGAAGCCCA 153
+          |||||||||||||||||||||||||
+Tgt 129 + GCUAAAGCUCUACGAUUGAAGCCCA 153
+
+153 cols, 153 ids (100.0%), 0 gaps (0.0%)

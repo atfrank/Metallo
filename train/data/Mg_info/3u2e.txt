@@ -1,0 +1,6 @@
+3u2e C 5 
+3u2e D 6 
+3u2e A 2 
+3u2e A 3 
+3u2e B 1 
+3u2e B 4 

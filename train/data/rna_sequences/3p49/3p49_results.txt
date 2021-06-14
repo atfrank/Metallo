@@ -1,0 +1,23 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3p49/3p49_rna.txt --id 0.8 --alnout ./3p49/3p49_results.txt --matched ./3p49/3p49_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3P49:A
+ %Id   TLen  Target
+100%    169  3P49:A
+
+ Query 169nt >3P49:A
+Target 169nt >3P49:A
+
+Qry   1 + GGAUAUGAGGAGAGAUUUCAUCCAUUGCACUCCGGAUGAAACACCGAAGAAGUAAAUCUUUCAG 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GGAUAUGAGGAGAGAUUUCAUCCAUUGCACUCCGGAUGAAACACCGAAGAAGUAAAUCUUUCAG 64
+
+Qry  65 + GUAAAAAGGACUCAUAUUGGACGAACCUCUGGAGAGCUUAUCUAAGAGAUAACACCGAAGGAGC 128
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + GUAAAAAGGACUCAUAUUGGACGAACCUCUGGAGAGCUUAUCUAAGAGAUAACACCGAAGGAGC 128
+
+Qry 129 + AAAGCUAAUUUUAGCCUAAACUCUCAGGUAAAAGGACGGAG 169
+          |||||||||||||||||||||||||||||||||||||||||
+Tgt 129 + AAAGCUAAUUUUAGCCUAAACUCUCAGGUAAAAGGACGGAG 169
+
+169 cols, 169 ids (100.0%), 0 gaps (0.0%)

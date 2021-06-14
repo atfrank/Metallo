@@ -1,0 +1,53 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4un3/4un3_rna.txt --id 0.8 --alnout ./4un3/4un3_results.txt --matched ./4un3/4un3_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4UN3:A
+ %Id   TLen  Target
+100%     81  4UN3:A
+
+ Query 81nt >4UN3:A
+Target 81nt >4UN3:A
+
+Qry  1 + AUAACUCAAUUUGUAAAAAAGUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + AUAACUCAAUUUGUAAAAAAGUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUU 64
+
+Qry 65 + AUCAACUUGAAAAAGUG 81
+         |||||||||||||||||
+Tgt 65 + AUCAACUUGAAAAAGUG 81
+
+81 cols, 81 ids (100.0%), 0 gaps (0.0%)
+
+Query >4UN4:A
+ %Id   TLen  Target
+100%     81  4UN3:A
+
+ Query 81nt >4UN4:A
+Target 81nt >4UN3:A
+
+Qry  1 + AUAACUCAAUUUGUAAAAAAGUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + AUAACUCAAUUUGUAAAAAAGUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUU 64
+
+Qry 65 + AUCAACUUGAAAAAGUG 81
+         |||||||||||||||||
+Tgt 65 + AUCAACUUGAAAAAGUG 81
+
+81 cols, 81 ids (100.0%), 0 gaps (0.0%)
+
+Query >4UN5:A
+ %Id   TLen  Target
+100%     81  4UN3:A
+
+ Query 81nt >4UN5:A
+Target 81nt >4UN3:A
+
+Qry  1 + AUAACUCAAUUUGUAAAAAAGUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + AUAACUCAAUUUGUAAAAAAGUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUU 64
+
+Qry 65 + AUCAACUUGAAAAAGUG 81
+         |||||||||||||||||
+Tgt 65 + AUCAACUUGAAAAAGUG 81
+
+81 cols, 81 ids (100.0%), 0 gaps (0.0%)

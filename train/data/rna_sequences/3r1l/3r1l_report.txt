@@ -1,0 +1,8 @@
+f1_score precision recall test_acc train_acc
+0.99130435 1.00000000 0.98275862 0.99408284 0.99251562
+
+[[111,   0],
+ [  1,  57]]
+3r1l.txt
+3hhn.txt
+3ivk.txt

@@ -1,0 +1,10 @@
+Accuracy of RF classifier on training set: 1.00000000
+Accuracy of RF classifier on test set: 0.97016989
+[[294777   1173]
+ [  8059   5477]]
+f1 score:
+0.5426533240860002
+training set:
+['3MUR', '3S15', '6TNA', '4KZD', '3L0U', '2OE5', '3DD2', '2BX2', '3S14', '1L2X', '3HK2', '3ZC0', '3D2V', '3NKB', '3P49', '1X8W', '1MMS', '3OWZ', '3OXB', '3V7E', '2NZ4', '3MUT', '3OX0', '2GDI', '3OWI', '1J1U', '4E8N', '3IVK', '4P9R', '2C0B', '2HO6', '3SSF', '3TWH', '2PPB', '3HJF', '3HHN', '3D2G', '4E8M', '1FFY', '1FEU', '4G6R', '1HR2', '3OXD', '1EVV', '4HOR', '2G8H', '1NUV', '4PQV', '3LA5', '1TEZ', '1QU2', '4FAW', '462D', '3JXQ', '2R8S', '4A3K', '4M30', '3ZGZ', '2H0X', '3BO2', '1DNT', '2FQN', '2Z75', '3BO3', '3MEI', '4Q9Q', '4QLM', '4OJI', '2ZXU', '3B4A', '3EGZ', '1NTB', '4J7L', '4QLN', '4A3M', '4UN4', '3B4B', '4BY1', '1TRA', '3UCZ', '3B4C', '1EGK', '2G5K', '4FAR', '4A3L', '437D', '2G8V', '2YIF', '2GCV', '3HTX', '4BXX', '2A43', '2H0S', '1PJO', '3HAX', '4TRA', '1YLS', '4A3B', '1Y99', '2YIE', '1YTU', '3RER', '2C4R', '1XJR', '4LX5', '3TD0', '3HVR', '1NUJ', '2G91', '3HM9', '4FB0', '3HO1', '4ARI', '1L8V', '1DNO', '2O5I', '4IFD', '2AO5', '1FUF', '1LNG', '2G8F', '4A3F', '4A3D', '4M2Z', '4JNX', '2GCS', '2H0W', '1EHZ', '4A3E', '1N78', '2NUF', '3PO2', '3PO3', '3MUM', '3MXH', '3GX5', '1DFU', '4P5J', '2B8S', '4JF2', '3OWW', '2QBZ', '2OIY', '4ENA', '3DIL', '4TZX', '3AOH', '4ENC', '3U2E', '4ENB', '3D2X', '3OXM', '4M4O']
+test set:
+['1K73', '3CGS', '1KD1', '2QEX', '1YJW', '1YJN', '4DR2', '4DR3', '4DR6', '4DR7', '4DR4', '4DR5', '1YJ9', '1W2B', '4A93', '4DUZ', '4DUY', '1Q82', '1Q81', '4JI5', '4JI4', '4JI7', '4JI6', '4JI1', '4JI0', '4JI3', '4JI2', '4JI8', '1FFK', '3CD6', '2Q1R', '4NXN', '4NXM', '2UUA', '2UUC', '1K9M', '3CCJ', '3G6E', '1YIJ', '1Q7Y', '4LF7', '3CCM', '4DV1', '4LF8', '4LF9', '3CCE', '4DV7', '4DV4', '4DV2', '3CCQ', '4DV0', '3CCL', '3CCR', '1QVF', '1QVG', '3CCV', '3CCU', '2R20', '3CC2', '2OTJ', '3CC7', '2OTL', '1YHQ', '1M90', '2R1S', '4LFB', '4LFC', '4LFA', '3Q1R', '4BWM', '1YI2', '3CXC', '1VQP', '354D', '1VQO', '1VQL', '1VQK', '1NJI', '3G71', '1JJ2', '1ZBL', '1ZBI', '1M1K', '1KQS', '1VQ8', '1VQ9', '1VQ6', '1VQ7', '1VQ4', '1VQ5', '4B3R', '1S72', '3I56']

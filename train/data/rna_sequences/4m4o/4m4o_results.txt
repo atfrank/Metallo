@@ -1,0 +1,15 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4m4o/4m4o_rna.txt --id 0.8 --alnout ./4m4o/4m4o_results.txt --matched ./4m4o/4m4o_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4M4O:B
+ %Id   TLen  Target
+100%     59  4M4O:B
+
+ Query 59nt >4M4O:B
+Target 59nt >4M4O:B
+
+Qry  1 + GGGUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAACCC 59
+         |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GGGUUCAUCAGGGCUAAAGAGUGCAGAGUUACUUAGUUCACUGCAGACUUGACGAACCC 59
+
+59 cols, 59 ids (100.0%), 0 gaps (0.0%)

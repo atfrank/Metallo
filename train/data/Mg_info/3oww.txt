@@ -1,0 +1,17 @@
+3oww B 118 
+3oww A 120 
+3oww B 121 
+3oww A 111 
+3oww A 101 
+3oww A 104 
+3oww A 105 
+3oww B 113 
+3oww A 103 
+3oww B 114 
+3oww B 122 
+3oww A 102 
+3oww A 107 
+3oww B 108 
+3oww A 116 
+3oww B 117 
+3oww A 119 

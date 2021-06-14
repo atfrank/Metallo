@@ -1,0 +1,10 @@
+3oxd B 113 
+3oxd A 130 
+3oxd A 110 
+3oxd A 112 
+3oxd B 114 
+3oxd A 101 
+3oxd B 106 
+3oxd B 132 
+3oxd B 131 
+3oxd B 133 

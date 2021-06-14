@@ -1,0 +1,67 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./6tna/6tna_rna.txt --id 0.8 --alnout ./6tna/6tna_results.txt --matched ./6tna/6tna_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >1EVV:A
+ %Id   TLen  Target
+100%     62  6TNA:A
+
+ Query 62nt >1EVV:A
+Target 62nt >6TNA:A
+
+Qry  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+
+62 cols, 62 ids (100.0%), 0 gaps (0.0%)
+
+Query >1EHZ:A
+ %Id   TLen  Target
+100%     62  6TNA:A
+
+ Query 62nt >1EHZ:A
+Target 62nt >6TNA:A
+
+Qry  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+
+62 cols, 62 ids (100.0%), 0 gaps (0.0%)
+
+Query >1TRA:A
+ %Id   TLen  Target
+100%     62  6TNA:A
+
+ Query 62nt >1TRA:A
+Target 62nt >6TNA:A
+
+Qry  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+
+62 cols, 62 ids (100.0%), 0 gaps (0.0%)
+
+Query >4TRA:A
+ %Id   TLen  Target
+100%     62  6TNA:A
+
+ Query 62nt >4TRA:A
+Target 62nt >6TNA:A
+
+Qry  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+
+62 cols, 62 ids (100.0%), 0 gaps (0.0%)
+
+Query >6TNA:A
+ %Id   TLen  Target
+100%     62  6TNA:A
+
+ Query 62nt >6TNA:A
+Target 62nt >6TNA:A
+
+Qry  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GCGGAUUUACUCAGGGGAGAGCCCAGAUAAAUGGAGUCUGUGCGUCCACAGAAUUCGCACCA 62
+
+62 cols, 62 ids (100.0%), 0 gaps (0.0%)

@@ -1,0 +1,33 @@
+f1_score precision recall test_acc train_acc
+0.89643705 0.99420443 0.81617647 0.97173603 0.99366262
+
+[[13103,    11],
+ [  425,  1887]]
+4qcz.txt
+1vvm.txt
+1vvu.txt
+1vw0.txt
+1vx9.txt
+1vy3.txt
+3kni.txt
+3v23.txt
+3v25.txt
+3v27.txt
+3v29.txt
+3v2d.txt
+3v2f.txt
+4bye.txt
+4dha.txt
+4dhc.txt
+4kx2.txt
+4nvv.txt
+4nvx.txt
+4nvz.txt
+4nw1.txt
+4qcn.txt
+4qcp.txt
+4qcr.txt
+4qct.txt
+4qcv.txt
+4qcx.txt
+4qd1.txt

@@ -1,0 +1,64 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./3v7e/3v7e_rna.txt --id 0.8 --alnout ./3v7e/3v7e_results.txt --matched ./3v7e/3v7e_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >3V7E:C
+ %Id   TLen  Target
+100%    126  3V7E:C
+100%    126  3V7E:D
+
+ Query 126nt >3V7E:C
+Target 126nt >3V7E:C
+
+Qry   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+
+Qry  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+
+126 cols, 126 ids (100.0%), 0 gaps (0.0%)
+
+ Query 126nt >3V7E:C
+Target 126nt >3V7E:D
+
+Qry   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+
+Qry  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+
+126 cols, 126 ids (100.0%), 0 gaps (0.0%)
+
+Query >3V7E:D
+ %Id   TLen  Target
+100%    126  3V7E:C
+100%    126  3V7E:D
+
+ Query 126nt >3V7E:D
+Target 126nt >3V7E:C
+
+Qry   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+
+Qry  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+
+126 cols, 126 ids (100.0%), 0 gaps (0.0%)
+
+ Query 126nt >3V7E:D
+Target 126nt >3V7E:D
+
+Qry   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   1 + GGCUUAUCAAGAGAGGUGGAGGGACUGGCCCGAUGAAACCCGGCAACCACUAGUCUAGCGUCAG 64
+
+Qry  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  65 + CUUCGGCUGACGCUAGGCUAGUGGUGCCAAUUCCUGCAGCGGAAACGUUGAAAGAUGAGCCA 126
+
+126 cols, 126 ids (100.0%), 0 gaps (0.0%)

@@ -1,0 +1,6 @@
+3oxb B 112 
+3oxb A 131 
+3oxb A 101 
+3oxb B 129 
+3oxb B 130 
+3oxb A 111 

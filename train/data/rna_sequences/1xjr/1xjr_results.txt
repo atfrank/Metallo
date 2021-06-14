@@ -1,0 +1,15 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./1xjr/1xjr_rna.txt --id 0.8 --alnout ./1xjr/1xjr_results.txt --matched ./1xjr/1xjr_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >1XJR:A
+ %Id   TLen  Target
+100%     46  1XJR:A
+
+ Query 46nt >1XJR:A
+Target 46nt >1XJR:A
+
+Qry  1 + GAGUUCACCGAGGCCACGCGGAGUACGAUCGAGGGUACAGUGAAUU 46
+         ||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + GAGUUCACCGAGGCCACGCGGAGUACGAUCGAGGGUACAGUGAAUU 46
+
+46 cols, 46 ids (100.0%), 0 gaps (0.0%)

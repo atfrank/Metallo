@@ -1,0 +1,7 @@
+3oxm A 101 
+3oxm A 102 
+3oxm B 111 
+3oxm B 110 
+3oxm A 109 
+3oxm A 112 
+3oxm A 116 

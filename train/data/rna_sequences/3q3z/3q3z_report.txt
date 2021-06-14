@@ -1,0 +1,6 @@
+f1_score precision recall test_acc train_acc
+0.91666667 1.00000000 0.84615385 0.97014925 0.99252348
+
+[[54,  0],
+ [ 2, 11]]
+3q3z.txt

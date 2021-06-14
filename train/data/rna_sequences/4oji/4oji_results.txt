@@ -1,0 +1,15 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4oji/4oji_rna.txt --id 0.8 --alnout ./4oji/4oji_results.txt --matched ./4oji/4oji_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4OJI:A
+ %Id   TLen  Target
+100%     52  4OJI:A
+
+ Query 52nt >4OJI:A
+Target 52nt >4OJI:A
+
+Qry  1 + CCGCCUAACACUGCCAGCCGGUCCCAAGCCCGGAUAAAAGUGGAGGGGGCGG 52
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + CCGCCUAACACUGCCAGCCGGUCCCAAGCCCGGAUAAAAGUGGAGGGGGCGG 52
+
+52 cols, 52 ids (100.0%), 0 gaps (0.0%)

@@ -1,0 +1,14 @@
+3owz A 105 
+3owz A 103 
+3owz B 109 
+3owz B 112 
+3owz A 102 
+3owz B 116 
+3owz B 110 
+3owz B 113 
+3owz A 104 
+3owz A 101 
+3owz B 106 
+3owz B 111 
+3owz B 114 
+3owz A 115 

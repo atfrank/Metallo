@@ -1,0 +1,19 @@
+vsearch --usearch_global ../rna_seq_all.txt --db ./4p5j/4p5j_rna.txt --id 0.8 --alnout ./4p5j/4p5j_results.txt --matched ./4p5j/4p5j_matched.txt --maxaccepts 0 --maxrejects 0 --mincols 15
+vsearch v2.14.1_macos_x86_64, 16.0GB RAM, 8 cores
+
+Query >4P5J:A
+ %Id   TLen  Target
+100%     83  4P5J:A
+
+ Query 83nt >4P5J:A
+Target 83nt >4P5J:A
+
+Qry  1 + AGCUCGCCAGUUAGCGAGGUCUGUCUCGACACGACAGAUAAUCGGGUGCAACUCCCGCCCCUCU 64
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1 + AGCUCGCCAGUUAGCGAGGUCUGUCUCGACACGACAGAUAAUCGGGUGCAACUCCCGCCCCUCU 64
+
+Qry 65 + UCCGAGGGUCAUCGGAACC 83
+         |||||||||||||||||||
+Tgt 65 + UCCGAGGGUCAUCGGAACC 83
+
+83 cols, 83 ids (100.0%), 0 gaps (0.0%)
