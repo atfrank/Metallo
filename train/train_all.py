@@ -32,7 +32,7 @@ for rna in rnas:
 
 	for training_set_rnas in training_set_files:
 		try:
-		    rna_file = pd.read_csv("results_s_2.8/"+training_set_rnas, delim_whitespace=True, engine='python')
+		    rna_file = pd.read_csv("data/fingerprint/"+training_set_rnas, delim_whitespace=True, engine='python')
 		except IOError:
 			print(training_set_rnas)
 			continue
@@ -49,7 +49,7 @@ for rna in rnas:
 
 	for test_set_rnas in test_set_files:
 		try:
-		    rna_file = pd.read_csv("results_s_2.8/"+test_set_rnas, delim_whitespace=True, engine='python')
+		    rna_file = pd.read_csv("data/fingerprint/"+test_set_rnas, delim_whitespace=True, engine='python')
 		except IOError:
 			print(test_set_rnas)
 			continue
