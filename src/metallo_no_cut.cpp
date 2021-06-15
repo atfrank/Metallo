@@ -311,7 +311,6 @@ int main(int argc, char **argv){
         double OP2_higher = 5.25;
         double others_lower = 1.65;
         double others_higher = 4.4;
-        double hoh_lower = 1.525;
         double hoh_higher = 100000;
         
         //loop over atoms rather than grids
@@ -641,7 +640,7 @@ int main(int argc, char **argv){
                         continue; // examine next one
                     }
                     else{
-                        if(dist_dic[index][0]<=N_higher && dist_dic[index][0]>=N_lower || dist_dic[index][1]<=OP1_higher && dist_dic[index][1]>=OP1_lower || dist_dic[index][2]<=OP2_higher && dist_dic[index][2]>=OP2_lower || dist_dic[index][3]<=others_higher && dist_dic[index][3]>=others_lower){
+                        if((dist_dic[index][0]<=N_higher && dist_dic[index][0]>=N_lower) || (dist_dic[index][1]<=OP1_higher && dist_dic[index][1]>=OP1_lower) || (dist_dic[index][2]<=OP2_higher && dist_dic[index][2]>=OP2_lower) || (dist_dic[index][3]<=others_higher && dist_dic[index][3]>=others_lower)){
                         condition = true;
                     }
                     }

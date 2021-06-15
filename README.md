@@ -29,7 +29,7 @@ usage: ./sh/run_metallo.sh <path-to-pdb-file> <path-to-metallo-repo>
 * Example:
 ```
 conda activate metallo
-./sh/run_metallo.sh test/SAM.pdb  ~/Documents/GitHub/Metallo
+./sh/run_metallo.sh test/SAM.pdb  $(pwd)
 ```
 This generates a coordinate (PDB formatted) files stored in `output/metallo-pdbs/`.
 
