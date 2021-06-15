@@ -1,1 +1,9 @@
 .DS_Store
+.Rhistory
+.swp
+*.so
+*.o
+bin
+__pycache__
+*.egg-info
+*.pyc
